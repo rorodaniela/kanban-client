@@ -48,7 +48,7 @@ export default {
     name: "App",
     data() {
         return {
-            server: "http://localhost:3000",
+            server: "https://kanban-app-ku.herokuapp.com",
             isLoggedIn: false,
             categories: [],
             currentPage: "login",

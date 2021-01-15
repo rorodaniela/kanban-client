@@ -37,7 +37,7 @@ export default {
                 description: '',
                 asignTo: ''
             },
-            server: 'http://localhost:3000'
+            server: 'https://kanban-app-ku.herokuapp.com'
         }
     },
     methods: {

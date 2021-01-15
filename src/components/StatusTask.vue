@@ -33,7 +33,7 @@ export default {
        updateStatus() {
            axios({
                 method: "PATCH",
-                url: "http://localhost:3000/tasks/" + this.currentTask.id,
+                url: "https://kanban-app-ku.herokuapp.com/tasks/" + this.currentTask.id,
                 data: {
                     categoryId: this.select
                 },

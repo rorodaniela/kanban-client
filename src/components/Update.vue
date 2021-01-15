@@ -51,7 +51,7 @@ export default {
         updateTask() {
             axios({
                 method: "PUT",
-                url: "http://localhost:3000/tasks/" + this.currentTask.id,
+                url: "https://kanban-app-ku.herokuapp.com/tasks/" + this.currentTask.id,
                 data: {
                     title: this.input.title,
                     description: this.input.description,

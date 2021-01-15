@@ -33,7 +33,7 @@ export default {
                 email: '', 
                 password: ''
             },
-            server: 'http://localhost:3000'
+            server: 'https://kanban-app-ku.herokuapp.com'
         }
     },
     methods: {

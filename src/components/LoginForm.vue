@@ -62,7 +62,7 @@ export default {
                 email: "",
                 password: "",
             },
-            server: "http://localhost:3000",
+            server: "https://kanban-app-ku.herokuapp.com",
             clientId:
                 "834629336183-e2ofd3t0mggc2duv7tbsvlfunkidom9i.apps.googleusercontent.com",
         };

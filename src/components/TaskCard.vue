@@ -48,7 +48,7 @@ export default {
         deleteTask() {
             axios({
                 method: "DELETE",
-                url: "http://localhost:3000/tasks/" + this.dataTask.id,
+                url: "https://kanban-app-ku.herokuapp.com/tasks/" + this.dataTask.id,
                 headers : {
                     access_token : localStorage.access_token
                 }
