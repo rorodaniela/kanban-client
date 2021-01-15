@@ -1,0 +1,3 @@
+                        App.vue
+    KanbanCard.vue                  Action.vue
+TaskCard.vue (categoryId)               Foobar.vue
